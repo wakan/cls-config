@@ -86,7 +86,7 @@ chemin="etc/modprobe.d/"
 fic="alsa-base.conf"
 if [ -f "/$chemin/$fic" ]
 then
-	echo "fichier son micro interne lenovo"
+	echo "On sauvegarde fichier son micro interne lenovo..."
 	if [ -f $chemin/$fic ]
 	then
 		cp "/$chemin/$fic" "$chemin/$fic"
@@ -99,7 +99,7 @@ chemin="home/guest/.config/i3/"
 fic="config"
 if [ -f "/$chemin/$fic" ]
 then
-	echo "fichier conf i3"
+	echo "On sauvegarde fichier conf i3..."
 	if [ -f $chemin/$fic ]
 	then
 		cp "/$chemin/$fic" "$chemin/$fic"
