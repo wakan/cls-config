@@ -1,0 +1,31 @@
+#---------------------------
+# Basic build options
+#---------------------------
+# Update either from binary packages (by default) or from source.
+#FEATURES="${FEATURES} -getbinpkg"
+
+# Emerge will ignore matching binary packages. A space separated list of packags
+# names or slot atoms.
+#USEPKG_EXCLUDE="--usepkg-exclude=''"
+
+# Number of packages to build simultaneously.
+#EMERGE_JOBS="--jobs=1"
+
+EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} ${USEPKG_EXCLUDE} ${EMERGE_JOBS}"
+
+#-------------------------
+# Compiler options
+#-------------------------
+# Number of parallel processes run when installing a package. 
+MAKEOPTS="-j9"
+
+# Additional options that will be passed to the compiler. The '-march=native' flag
+# tells it to optimize code generation for your specific hardware.
+#CFLAGS="-O2 -march=native -pipe"
+#CXXFLAGS="${CFLAGS}"
+
+# Maximum size of the ccache.
+#CCACHE_SIZE="5G"
+
+# Compression parameters for binary packages
+BINPKG_COMPRESS_FLAGS="-19 -T8"
