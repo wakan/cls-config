@@ -82,6 +82,19 @@ then
 		cp "/$chemin/$fic" "$chemin/$fic"
 	fi
 fi
+chemin="/etc/modprobe.d/"
+fic="alsa-base.conf"
+if [ -f "/$chemin/$fic" ]
+then
+	echo "fichier son micro interne lenovo"
+	if [ -f $chemin/$fic ]
+	then
+		cp "/$chemin/$fic" "$chemin/$fic"
+	else
+		mkdir -p "$chemin"
+		cp "/$chemin/$fic" "$chemin/$fic"
+	fi
+fi
 
 git add *
 git commit -m "Mise à jour de la configutaion le $jour à $heure"
