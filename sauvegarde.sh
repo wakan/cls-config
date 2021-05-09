@@ -82,7 +82,7 @@ then
 		cp "/$chemin/$fic" "$chemin/$fic"
 	fi
 fi
-chemin="/etc/modprobe.d/"
+chemin="etc/modprobe.d/"
 fic="alsa-base.conf"
 if [ -f "/$chemin/$fic" ]
 then
