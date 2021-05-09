@@ -1,1 +1,9 @@
 # This file will be migrate to new installation
+# required by app-emulation/vagrant-2.2.9-r1::gentoo[ruby_targets_ruby26]
+# required by vagrant (argument)
+=dev-ruby/vagrant_cloud-2.0.3-r1 ~amd64
+# required by app-emulation/vagrant-2.2.9-r1::gentoo[ruby_targets_ruby26]
+# required by vagrant (argument)
+=dev-ruby/rubyzip-2.3.0 ~amd64
+# required by vagrant (argument)
+=app-emulation/vagrant-2.2.9-r1 ~amd64

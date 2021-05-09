@@ -5,15 +5,16 @@ app-arch/pigz
 app-crypt/sbsigntools
 app-crypt/shim-signed
 app-editors/vim
-app-misc/tmux
+app-emulation/vagrant
+app-emulation/virtualbox
 app-misc/xorg-meta
 app-portage/eix
 app-portage/gentoolkit
 app-text/mupdf
+dev-embedded/arduino
 dev-vcs/git
 media-fonts/terminus-font
 media-gfx/feh
-media-gfx/gfxboot-themes-calculate
 media-sound/alsa-utils
 media-video/celluloid
 media-video/obs-studio
@@ -28,7 +29,6 @@ net-wireless/wireless-tools
 net-wireless/wpa_supplicant
 sys-apps/calculate-toolkit
 sys-apps/calculate-utils:3
-sys-apps/ethtool
 sys-apps/ifplugd
 sys-apps/less
 sys-apps/openrc
