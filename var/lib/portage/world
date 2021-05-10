@@ -1,14 +1,15 @@
+acct-group/kvm
 app-admin/logrotate
 app-admin/syslog-ng
+app-admin/terraform
 app-arch/lbzip2
 app-arch/pigz
 app-crypt/sbsigntools
 app-crypt/shim-signed
 app-editors/vim
-app-emulation/vagrant
-app-emulation/virtualbox
 app-misc/xorg-meta
 app-portage/eix
+app-portage/genlop
 app-portage/gentoolkit
 app-text/mupdf
 dev-embedded/arduino
@@ -59,5 +60,4 @@ www-client/google-chrome
 x11-apps/xrdb
 x11-misc/dunst
 x11-terms/rxvt-unicode
-x11-themes/papirus-icon-theme
 x11-wm/i3-gaps
