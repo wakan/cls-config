@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC
+ "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+<policyconfig>
+
+ <vendor>Davinci resolv</vendor>
+  <vendor_url>https://www.blackmagicdesign.com/fr/products/davinciresolve/</vendor_url>
+
+ <action id="org.freedesktop.policykit.example.pkexec.davinci-resolve">
+    <description>Run the PolicyKit example program Davinci resolve</description>
+    <message>Authentication is required to run the PolicyKit example program Davinci resolve</message>
+    <icon_name>audio-x-generic</icon_name>
+    <defaults>
+      <allow_any>no</allow_any>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>yes</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/env</annotate>
+  </action>
+
+</policyconfig>
