@@ -112,7 +112,7 @@ chemin="etc/udev/rules.d/"
 fic="90-backlight.rules"
 if [ -f "/$chemin/$fic" ]
 then
-	echo "On sauvegarde fichier conf i3..."
+	echo "On sauvegarde fichier udev pour controller luminosite ecran sans root..."
 	if [ -f $chemin/$fic ]
 	then
 		cp "/$chemin/$fic" "$chemin/$fic"
