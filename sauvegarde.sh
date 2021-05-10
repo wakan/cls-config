@@ -134,7 +134,7 @@ then
 		cp "/$chemin/$fic" "$chemin/$fic"
 	fi
 fi
-chemin="/usr/share/polkit-1/actions/"
+chemin="usr/share/polkit-1/actions/"
 ofic="rg.freedesktop.policykit.davinciresolve.policy"
 if [ -f "/$chemin/$fic" ]
 then
