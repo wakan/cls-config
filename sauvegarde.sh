@@ -135,7 +135,7 @@ then
 	fi
 fi
 chemin="usr/share/polkit-1/actions/"
-ofic="org.freedesktop.policykit.davinciresolve.policy"
+fic="org.freedesktop.policykit.davinciresolve.policy"
 if [ -f "/$chemin/$fic" ]
 then
 	echo "On sauvegarde fichier polkit pour /usr/bin/env sans password..."
