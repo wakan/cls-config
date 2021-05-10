@@ -29,3 +29,5 @@ MAKEOPTS="-j9"
 
 # Compression parameters for binary packages
 BINPKG_COMPRESS_FLAGS="-19 -T8"
+
+USE="-cups -modemmanager"

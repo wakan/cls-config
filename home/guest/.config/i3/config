@@ -4,9 +4,6 @@ font pango: Cascadia Code 10
 
 for_window [class="^.*"] border pixel 1
 
-gaps inner 10
-gaps outer 10
-
 set_from_resource $fg i3wm.color7 #f0f0f0
 set_from_resource $bg i3wm.color2 #f0f0f0
 
@@ -19,7 +16,9 @@ client.placeholder      $bg     $bg     $fg  $bg       $bg
 
 client.background       $bg
 
+
 exec --no-startup-id nm-applet
+exec --no-startup-id xrdb ~/.Xresources
 exec --no-startup-id urxvtd --quiet --opendisplay --fork
 exec --no-startup-id dunst
 exec --no-startup-id firefox
