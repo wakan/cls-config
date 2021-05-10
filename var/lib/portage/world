@@ -56,5 +56,7 @@ sys-process/htop
 virtual/linux-sources
 www-client/firefox
 www-client/google-chrome
+x11-misc/dunst
 x11-terms/rxvt-unicode
+x11-themes/papirus-icon-theme
 x11-wm/i3-gaps

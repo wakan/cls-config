@@ -1,3 +1,4 @@
 # This file will be migrate to new installation
 
 dev-libs/light udev
+x11-misc/dunst dunstify

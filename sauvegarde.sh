@@ -108,6 +108,19 @@ then
 		cp "/$chemin/$fic" "$chemin/$fic"
 	fi
 fi
+chemin="home/guest/.config/dunst/"
+fic="dunstrc"
+if [ -f "/$chemin/$fic" ]
+then
+	echo "On sauvegarde fichier conf dunst..."
+	if [ -f $chemin/$fic ]
+	then
+		cp "/$chemin/$fic" "$chemin/$fic"
+	else
+		mkdir -p "$chemin"
+		cp "/$chemin/$fic" "$chemin/$fic"
+	fi
+fi
 chemin="etc/udev/rules.d/"
 fic="90-backlight.rules"
 if [ -f "/$chemin/$fic" ]
