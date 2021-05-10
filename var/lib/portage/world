@@ -12,6 +12,7 @@ app-portage/eix
 app-portage/gentoolkit
 app-text/mupdf
 dev-embedded/arduino
+dev-libs/light
 dev-vcs/git
 media-fonts/terminus-font
 media-gfx/feh

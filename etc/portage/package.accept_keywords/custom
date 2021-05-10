@@ -7,3 +7,5 @@
 =dev-ruby/rubyzip-2.3.0 ~amd64
 # required by vagrant (argument)
 =app-emulation/vagrant-2.2.9-r1 ~amd64
+# required by dev-libs/light (argument)
+=dev-libs/light-1.2.2-r1 ~amd64
