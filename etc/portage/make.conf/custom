@@ -30,4 +30,4 @@ MAKEOPTS="-j9"
 # Compression parameters for binary packages
 BINPKG_COMPRESS_FLAGS="-19 -T8"
 
-USE="-cups elogind wifi"
+USE="-cups elogind wifi -ios -ipod -dvd -dvdr -dvdread -jabber"

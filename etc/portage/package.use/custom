@@ -2,3 +2,4 @@
 
 dev-libs/light udev
 x11-misc/dunst dunstify
+sys-kernel/calculate-sources -minimal -vmlinuz

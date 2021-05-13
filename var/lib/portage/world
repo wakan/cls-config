@@ -7,11 +7,16 @@ app-arch/pigz
 app-crypt/sbsigntools
 app-crypt/shim-signed
 app-editors/vim
+app-emulation/libvirt
+app-emulation/lxd
+app-emulation/qemu
+app-emulation/virt-manager
 app-misc/xorg-meta
 app-portage/eix
 app-portage/genlop
 app-portage/gentoolkit
 app-text/mupdf
+app-vim/info
 dev-embedded/arduino
 dev-libs/light
 dev-vcs/git
@@ -51,6 +56,7 @@ sys-fs/ecryptfs-utils
 sys-fs/eudev
 sys-fs/reiserfsprogs
 sys-fs/xfsprogs
+sys-kernel/calculate-sources
 sys-kernel/dracut
 sys-process/cronie
 sys-process/htop
@@ -58,6 +64,5 @@ virtual/linux-sources
 www-client/firefox
 www-client/google-chrome
 x11-apps/xrdb
-x11-misc/dunst
 x11-terms/rxvt-unicode
 x11-wm/i3-gaps
