@@ -22,6 +22,8 @@ dev-libs/light
 dev-vcs/git
 media-fonts/terminus-font
 media-gfx/feh
+media-gfx/rawtherapee
+media-gfx/ufraw
 media-sound/alsa-utils
 media-video/celluloid
 media-video/obs-studio
