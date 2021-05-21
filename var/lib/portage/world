@@ -1,7 +1,5 @@
-acct-group/kvm
 app-admin/logrotate
 app-admin/syslog-ng
-app-admin/terraform
 app-arch/lbzip2
 app-arch/pigz
 app-crypt/sbsigntools
@@ -58,6 +56,5 @@ virtual/linux-sources
 www-client/firefox
 www-client/google-chrome
 x11-apps/xrdb
-x11-misc/dunst
 x11-terms/rxvt-unicode
 x11-wm/i3-gaps

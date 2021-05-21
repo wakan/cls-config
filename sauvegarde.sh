@@ -108,11 +108,11 @@ then
 		cp "/$chemin/$fic" "$chemin/$fic"
 	fi
 fi
-chemin="home/guest/.config/dunst/"
-fic="dunstrc"
+chemin="home/guest/"
+fic=".Xressources"
 if [ -f "/$chemin/$fic" ]
 then
-	echo "On sauvegarde fichier conf dunst..."
+	echo "On sauvegarde fichier conf xRessources..."
 	if [ -f $chemin/$fic ]
 	then
 		cp "/$chemin/$fic" "$chemin/$fic"
