@@ -109,7 +109,7 @@ then
 	fi
 fi
 chemin="home/guest/"
-fic=".Xressources"
+fic=".Xresources"
 if [ -f "/$chemin/$fic" ]
 then
 	echo "On sauvegarde fichier conf xRessources..."
