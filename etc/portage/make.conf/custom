@@ -30,7 +30,7 @@ MAKEOPTS="-j9"
 # Compression parameters for binary packages
 BINPKG_COMPRESS_FLAGS="-19 -T8"
 
-USE="-cups -ldap elogind wifi"
+USE="cairo curl -gnome-keyring -systemd -cups -ldap elogind wifi"
 
 L10N="fr-FR"
 LINGUAS="fr-FR"
