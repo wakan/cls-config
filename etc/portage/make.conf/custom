@@ -32,8 +32,8 @@ BINPKG_COMPRESS_FLAGS="-19 -T8"
 
 USE="perl lua cairo curl -cvs -subversion -selinux -gnome-keyring -systemd -cups -ldap elogind wifi"
 
-L10N="fr-FR"
-LINGUAS="fr-FR"
+L10N="fr"
+LINGUAS="fr"
 
 
 
