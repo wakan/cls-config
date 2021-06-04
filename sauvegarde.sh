@@ -95,6 +95,21 @@ then
 		cp "/$chemin/$fic" "$chemin/$fic"
 	fi
 fi
+chemin="etc/modprobe.d/"
+fic="blacklist.conf"
+if [ -f "/$chemin/$fic" ]
+then
+	echo "On sauvegarde fichier blakclist module..."
+	if [ -f $chemin/$fic ]
+	then
+		cp "/$chemin/$fic" "$chemin/$fic"
+	else
+		mkdir -p "$chemin"
+		cp "/$chemin/$fic" "$chemin/$fic"
+	fi
+fi
+
+
 chemin="home/guest/.config/i3/"
 fic="config"
 if [ -f "/$chemin/$fic" ]
