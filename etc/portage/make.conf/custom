@@ -21,11 +21,11 @@ MAKEOPTS="-j9"
 
 # Additional options that will be passed to the compiler. The '-march=native' flag
 # tells it to optimize code generation for your specific hardware.
-#CFLAGS="-O2 -march=native -pipe"
-#CXXFLAGS="${CFLAGS}"
+CFLAGS="-O2 -march=native -pipe"
+CXXFLAGS="${CFLAGS}"
 
 # Maximum size of the ccache.
-#CCACHE_SIZE="5G"
+CCACHE_SIZE="15G"
 
 # Compression parameters for binary packages
 BINPKG_COMPRESS_FLAGS="-19 -T8"

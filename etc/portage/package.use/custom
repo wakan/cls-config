@@ -1,4 +1,4 @@
 # This file will be migrate to new installation
 
 dev-libs/light udev
-sys-kernel/calculate-sources uksm -minimal -themes
+sys-kernel/calculate-sources -uksm -minimal -themes
